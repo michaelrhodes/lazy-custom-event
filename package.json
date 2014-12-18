@@ -1,0 +1,26 @@
+{
+  "name": "lazy-custom-event",
+  "version": "1.0.0",
+  "description": "CustomEvent objects without all the ceremony.",
+  "main": "index.js",
+  "scripts": {
+    "test": "zuul --open --local=12345 --ui=tape -- test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/lazy-custom-event.git"
+  },
+  "keywords": [
+    "CustomEvent"
+  ],
+  "author": "Michael Rhodes <mail+npm@michaelrhod.es> (http://michaelrhod.es)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/lazy-custom-event/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/lazy-custom-event",
+  "devDependencies": {
+    "tape": "^3.0.3",
+    "zuul": "^1.16.0"
+  }
+}
